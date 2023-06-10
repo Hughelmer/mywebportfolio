@@ -1,0 +1,166 @@
+/*CSS Reset Rule*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar-bg{
+	background-color: #f8f8d9;
+}
+
+.whole-bg{
+	background-color: #f5f5dc;
+}
+
+.nav-me{
+/*	  font-family: "Sofia", sans-serif;*/
+	  font-size: 20px;
+	  text-shadow: 3px 3px 3px #ababab;
+}
+
+.body-ff{
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+.form-bg{
+  background-color: #C7B9B0;
+}
+
+#pre-footer {
+  background-color: #002540;
+  display: block;
+  padding: 3rem 1.5rem 6rem;
+  color: white;
+}
+
+#pre-footer div {
+    display: inline-block;
+    width: 20%;
+}
+
+.landing-row{
+	min-height: 100vh;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	height: 200px;
+}
+
+.landing-info{
+	height: 100vh;
+	width: 100%;
+	background-color: blue
+}
+
+.landing-img{
+	height: 100vh;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/* Tools - CSS */
+
+.toolsLogo{
+	height: auto;
+	max-width: 10%;
+	align-items: center;
+	justify-items: top;
+}
+
+.toolsIcon{
+	font-size: 36px;
+	text-align: center;
+	width: 100%;
+}
+
+.toolsText.card{
+	cursor: pointer;
+	height: 280px;
+}
+
+.toolsText:hover{
+	border: 1px solid #9C27B0;
+}
+
+.card:hover .toolsIcon{
+	color: #9C27B0;
+}
+
+/*.social-icon{
+	margin-top: 30px;
+}*/
+
+#reachMe{
+	display: flex;
+	text-align: center;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.fa-facebook:hover,.fa-instagram:hover,.fa-github:hover,.fa-linkedin:hover,.fa-circle-arrow-up:hover {
+    color: #9C27B0;
+}
+
+.fa-circle-arrow-up:hover {
+    color: #9C27B0;
+}
+
+.fab {
+    color: #000000;
+}
+
+/* footer styling */
+#footer {
+/*    background-color: #9C27B0;*/
+    text-align: center;
+}
+
+#socialIcon {
+	font-size: 30px;
+}
+
+.background-img{
+	min-height: 100vh;
+	background-image: url(https://wallpaperaccess.com/full/5651978.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+.bg-container{
+	background-color: rgba(0,0,0,0.5);
+	min-height: 100vh;
+}
+
+.headerS{
+	color: #c4e5e5;
+}
+
+.card{
+	background-color: #dedbd5;
+}
+
+.linkUnderline{
+	text-decoration: underline;
+	margin-top: 10px;
+	text-decoration-color: #dc89f5;
+
+}
+
+#footer{
+	background-color: #EFE4DC;
+}
